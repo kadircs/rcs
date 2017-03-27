@@ -1,0 +1,10 @@
+[user]
+	name = kadircs
+	email = kadir.cs@gmail.com
+[core]
+	autocrlf = input
+	editor = vim
+[push]
+	default = simple 
+[color]
+	ui = auto
