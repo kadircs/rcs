@@ -1,4 +1,4 @@
-
+defscrollback 10000
 startup_message off
 caption always "%?%F%{= gW}%:%{= Kk}%?%2n%f%07=%t%?%P *** copy/paste mode ***%:%?%=%{= kw}%-w%{= BW}%n %t%{-}%+w %-= @%H - %LD %d %LM - %c"
 vbell off
