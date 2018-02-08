@@ -1,4 +1,4 @@
-
+defscrollback 10000
 startup_message off
 caption always "%?%F%{= gW}%:%{= Kk}%?%2n%f%07=%t%?%P *** copy/paste mode ***%:%?%=%{= kw}%-w%{= BW}%n %t%{-}%+w %-= @%H - %LD %d %LM - %c"
 vbell off
@@ -11,8 +11,8 @@ bell_msg 'Screeno numero %n is a hollerin'
 
 #backtick 0 30 30 sh -c 'screen -ls | grep -o "$PPID[^[:space:]]*"'
 # the following two lines give a two-line status, with the current window highlighted
-hardstatus alwayslastline
-hardstatus string '%{= kG}[%h][%{G}%H%? %1`%?%{g}][%= %{= kw}%-w%{+b yk} %n*%t%?(%u)%? %{-}%+w %=%{g}][%{B}%m/%d %{W}%C%A%{g}]'
+#hardstatus alwayslastline
+#hardstatus string '%{= kG}[%h][%{G}%H%? %1`%?%{g}][%= %{= kw}%-w%{+b yk} %n*%t%?(%u)%? %{-}%+w %=%{g}][%{B}%m/%d %{W}%C%A%{g}]'
 #[%h] shows sessionname
 #you must add \[\e]0;$STY\007   to PS1 variable in .bashrc
 #A sample PS1
