@@ -7,4 +7,5 @@ export PATH=/home/akbudak/.bin/:$PATH
 #ctrl-w kills whole word until whitespace
 stty werase undef
 bind '\C-w:unix-word-rubout'
-bind -p | grep "C-w"
+#for checking the mapping
+#bind -p | grep "C-w"
