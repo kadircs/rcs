@@ -10,5 +10,7 @@ bind '\C-w:unix-word-rubout'
 #for checking the mapping
 #bind -p | grep "C-w"
 
+export GIO_EXTRA_MODULES=/usr/lib/x86_64-linux-gnu/gio/modules/
+##default is 1200
 gsettings set org.gnome.desktop.interface cursor-blink-time 200
 
