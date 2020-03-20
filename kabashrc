@@ -9,3 +9,6 @@ stty werase undef
 bind '\C-w:unix-word-rubout'
 #for checking the mapping
 #bind -p | grep "C-w"
+
+gsettings set org.gnome.desktop.interface cursor-blink-time 200
+

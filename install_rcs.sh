@@ -1,4 +1,4 @@
-for f in screenrc inputrc gitconfig; do
+for f in bashrc screenrc inputrc gitconfig; do
     echo $f
     if [ -f ~/.$f ]; then
         mv  ~/.$f  ~/.$f.bck
