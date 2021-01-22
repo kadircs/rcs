@@ -14,3 +14,4 @@ export GIO_EXTRA_MODULES=/usr/lib/x86_64-linux-gnu/gio/modules/
 ##default is 1200
 gsettings set org.gnome.desktop.interface cursor-blink-time 200
 
+export LC_ALL="en_US.UTF-8"
