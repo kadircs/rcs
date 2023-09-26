@@ -5,7 +5,7 @@
 	editor = vim
 	autocrlf = input
 	pager = less -r
-    whitespace = -trailing-space,-indent-with-non-tab,-tab-in-indent
+	whitespace = -trailing-space,-indent-with-non-tab,-tab-in-indent
 [push]
 	default = simple 
 [color]
